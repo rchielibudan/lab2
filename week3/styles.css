@@ -10,9 +10,13 @@ ul {
 h2 {
 	background-color: pink;
 	border: 2px solid black;
-	width: 350px;
+	width: 386px;
 	padding: 20px;
   margin: auto;
+  border-style: dotted;
+  border: 2px solid black;
+  padding: 2px;
+  position: relative
 }
 ul {
 margin: auto;
@@ -38,25 +42,10 @@ margin: auto;
   width: 350px;
   height: 180px;
   float: middle;
-ul {
-margin: auto;
-  width: 350px;
-  height: 130px;
-  float: middle;
-}
-  body {
-    background-color: #FDB0C0;
-  }
 
-h2 {
-  float: middle;
-  border-style: dotted;
-  width: 300px;
-  border: 2px solid black;
-  padding: 2px;
-  margin: auto;
-  position: relative
-  
- }
- 
+
+}
+img {
+	text-align: center;
+}
 
