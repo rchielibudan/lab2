@@ -15,11 +15,62 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#idkpa">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Rchie Libudan</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+      </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./resources/rchieprof.png" alt="Rchie Libudan Profile">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">What's Up, I'm</p>
+        <h1 class="title">Rchie Libudan</h1>
+        <p class="section__text__p2">Aspiring Millionaire</p>
+      
+      <div class="btn-container">
+        <button 
+        class="btn btn-color-2" 
+        onclick="window.open('./resources/resume.jpg')"
+        >
+        Download Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'"> 
+          Contact Information
+        </button>
+      
+      </div>
+      <div id="socials-container">
+        <img 
+        src="./resources/fblogo.png" 
+        alt="My Facebook Profile" 
+        class="icon" 
+        onclick="location.href='https://www.facebook.com/rchie.libudan'"/>
+        <img 
+        src="./resources/git.png" 
+        alt="My Github Profile" 
+        class="icon" 
+        onclick="location.href='https://github.com/rchielibudan'"/>
+
+      </div>
+    </div> 
+  </section>
   <script src="script.js"></script>
 
 </body>
