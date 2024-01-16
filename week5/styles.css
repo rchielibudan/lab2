@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85)
+  color: rgb(85, 85, 85);
 }
 
 a, 
@@ -319,4 +319,8 @@ margin: 10px 0;
 .tab-contents ul li span{
   color: #be4f73;
   font-size: 14px;
+}
+
+.introduction {
+  padding-right: 155px;
 }
