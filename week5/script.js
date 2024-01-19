@@ -40,3 +40,10 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function changeText() {
+    var textContainer = document.getElementById('textContainer');
+    var newText = "Text changed!";
+    textContainer.textContent = newText;
+}
+document.getElementById('changeTextButton').addEventListener('click', changeText);
