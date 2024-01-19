@@ -15,6 +15,4 @@ function updateDateTime() {
 updateDateTime();
 setInterval(updateDateTime, 1000);
 
-document.getElementById('myButton').addEventListener('click', function() {
-    alert('Button clicked!');
-});
+alert('Welcome to My Webpage!');
