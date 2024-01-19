@@ -16,3 +16,27 @@ updateDateTime();
 setInterval(updateDateTime, 1000);
 
 alert('Welcome to My Webpage!');
+
+function showIntroduction() {
+    var introductionContainer = document.getElementById('introduction-container');
+    var introductionText = "Welcome to My Awesome Webpage!";
+
+    var introductionParagraph = document.createElement('p');
+    introductionParagraph.textContent = introductionText;
+
+
+    introductionContainer.appendChild(introductionParagraph);
+}
+
+showIntroduction();
+
+function addString() {
+    var outputContainer = document.getElementById('output-container');
+    var myString = "This is a dynamic string added using JavaScript.";
+
+    
+    outputContainer.textContent = myString;
+}
+
+
+addString();
