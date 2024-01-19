@@ -324,3 +324,11 @@ margin: 10px 0;
 .introduction {
   padding-right: 155px;
 }
+
+#datetime {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}

@@ -4,3 +4,17 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+
+
+function updateDateTime() {
+    var currentDateTime = new Date();
+    var formattedDateTime = currentDateTime.toLocaleString();
+    document.getElementById('datetime').innerHTML = 'Current Date and Time: ' + formattedDateTime;
+}
+updateDateTime();
+setInterval(updateDateTime, 1000);
+
+document.getElementById('myButton').addEventListener('click', function() {
+    alert('Button clicked!');
+});
