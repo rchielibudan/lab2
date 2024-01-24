@@ -76,3 +76,37 @@ let currentYear = date.getFullYear();
 const myCar = new Car("FERRARI", 2022);
 document.getElementById("demo").innerHTML =
     "My name is Rchie, and my " + myCar.name + " is " + myCar.age(currentYear) + " years old.";
+
+    setTimeout(function () { myFunction("you didn't see that!!!!!"); }, 3000);
+
+    function myFunction(value) {
+        document.getElementById("demo").innerHTML = value;
+    }
+
+    function moveSquare() {
+        let id = null;
+        const elem = document.getElementById("animate");
+        let pos = 0;
+        clearInterval(id);
+        id = setInterval(frame, 5);
+        function frame() {
+            if (pos == 350) {
+                clearInterval(id);
+            } else {
+                pos++;
+                elem.style.top = pos + "px";
+                elem.style.left = pos + "px";
+            }
+        }
+    }
+
+    function myFunction() {
+        let text;
+        let person = prompt("Please enter your name:", "Wayne");
+        if (person == null || person == "") {
+            text = "User cancelled the prompt.";
+        } else {
+            text = "Hello " + person + "! Reach me out for more details!";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
