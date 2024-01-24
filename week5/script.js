@@ -59,3 +59,20 @@ window.addEventListener("load", rchie);
 
 
 document.getElementById("btn").addEventListener("click", rchie);
+
+class Car {
+    constructor(name, year) {
+        this.name = name;
+        this.year = year;
+    }
+    age(x) {
+        return x - this.year;
+    }
+}
+
+const date = new Date();
+let currentYear = date.getFullYear();
+
+const myCar = new Car("FERRARI", 2022);
+document.getElementById("demo").innerHTML =
+    "My name is Rchie, and my " + myCar.name + " is " + myCar.age(currentYear) + " years old.";
