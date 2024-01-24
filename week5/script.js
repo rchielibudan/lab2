@@ -48,34 +48,40 @@ function changeText() {
 }
 document.getElementById('changeTextButton').addEventListener('click', changeText);
 
-let rchie = "";
+var newpagebutton = document.getElementById("newpagebutton");
 
-rchie = () => {
-    document.getElementById("demo").innerHTML += "rchie";
-}
+newpagebutton.addEventListener("click", function () {
+    window.location.href = "new.html";
+});
 
+    let rchie = "";
 
-window.addEventListener("load", rchie);
-
-
-document.getElementById("btn").addEventListener("click", rchie);
-
-class Car {
-    constructor(name, year) {
-        this.name = name;
-        this.year = year;
+    rchie = () => {
+        document.getElementById("demo").innerHTML += "rchie";
     }
-    age(x) {
-        return x - this.year;
+
+   
+    window.addEventListener("load", rchie);
+
+    // A button object calls the function:
+    document.getElementById("newbtn").addEventListener("click", rchie);
+
+    class Car {
+        constructor(name, year) {
+            this.name = name;
+            this.year = year;
+        }
+        age(x) {
+            return x - this.year;
+        }
     }
-}
 
-const date = new Date();
-let currentYear = date.getFullYear();
+    const date = new Date();
+    let currentYear = date.getFullYear();
 
-const myCar = new Car("FERRARI", 2022);
-document.getElementById("demo").innerHTML =
-    "My name is Rchie, and my " + myCar.name + " is " + myCar.age(currentYear) + " years old.";
+    const myCar = new Car("Pink Lamborghini Aventador", 2022);
+    document.getElementById("demo").innerHTML =
+        "My name is Rchie, and my " + myCar.name + " is " + myCar.age(currentYear) + " years old.";
 
     setTimeout(function () { myFunction("you didn't see that!!!!!"); }, 3000);
 
@@ -110,4 +116,4 @@ document.getElementById("demo").innerHTML =
         }
         document.getElementById("demo").innerHTML = text;
     }
-
+;
