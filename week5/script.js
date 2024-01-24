@@ -47,3 +47,15 @@ function changeText() {
     textContainer.textContent = newText;
 }
 document.getElementById('changeTextButton').addEventListener('click', changeText);
+
+let rchie = "";
+
+rchie = () => {
+  document.getElementById("demo").innerHTML += "rchie";
+}
+
+// The window object calls the function:
+window.addEventListener("load", rchie);
+
+// A button object calls the function:
+document.getElementById("btn").addEventListener("click", rchie);
