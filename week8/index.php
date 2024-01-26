@@ -110,6 +110,9 @@
     </div>
   </div>
   <button onclick="window.location.href='new.html'">Go to New Page</button>
+  <?php
+echo "Hello World!";
+?>
   <script src="script.js"></script>
 
 </body>
