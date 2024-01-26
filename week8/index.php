@@ -128,9 +128,6 @@ echo "Future Billionaire";
 ?>
 <?php
 
-<?php
-echo strlen("Hello world!");
-?>
   <script src="script.js"></script>
 
 </body>
