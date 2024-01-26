@@ -14,7 +14,20 @@
 
    
     <button id="btn">Click me</button>
+	
+	<?php
+    $txt1 = "Guess my Age";
+		$txt2 = "my birth year is 2003";
+		$x = 2024;
+		$y = 2003;
 
+		echo "<p>" . $txt1 . "</p>";
+		echo "Study PHP at " . $txt2 . "<br>";
+		echo $x - $y;
+		?>
+	
+		
+	
 
     <div id="animate" style="width: 50px; height: 50px; background-color: red; position: relative;"></div>
 

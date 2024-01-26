@@ -110,6 +110,7 @@
     </div>
   </div>
   <button onclick="window.location.href='new.html'">Go to New Page</button>
+  <br>
   <?php
 echo "Hello World!";
 ?>
@@ -120,6 +121,15 @@ $age = 20;
 
 echo "Name: " . $name . "<br>";
 echo "Age: " . $age;
+?>
+<br>
+<?php
+echo "Future Billionaire";
+?>
+<?php
+
+<?php
+echo strlen("Hello world!");
 ?>
   <script src="script.js"></script>
 
