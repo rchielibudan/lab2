@@ -126,9 +126,9 @@ echo "Age: " . $age;
 <?php
 echo "Future Billionaire";
 ?>
-<?php
 
-  <script src="script.js"></script>
+
+<script src="script.js"></script>
 
 </body>
 </html>
