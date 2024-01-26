@@ -26,11 +26,15 @@
 		echo $x - $y;
 		
 	function myMessage() {
-  echo "Hello world!";
+  echo "Hello";
 }
 
 myMessage();
-		?>
+
+		$brands = array("Hermes", "Coach", "CharlesandKeith");
+echo count($brands);
+?>
+
 	
 		
 	
