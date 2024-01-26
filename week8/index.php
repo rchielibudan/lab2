@@ -109,7 +109,7 @@
       <p id="textContainer">Original Text</p>
     </div>
   </div>
-  <button onclick="window.location.href='new.html'">Go to New Page</button>
+  <button onclick="window.location.href='new.php'">Go to New Page</button>
   <br>
   <?php
 echo "Hello World!";
