@@ -113,6 +113,14 @@
   <?php
 echo "Hello World!";
 ?>
+<br>
+<?php
+$name = "Rchie";
+$age = 20;
+
+echo "Name: " . $name . "<br>";
+echo "Age: " . $age;
+?>
   <script src="script.js"></script>
 
 </body>
