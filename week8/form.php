@@ -101,10 +101,17 @@ echo $gender;
 ?>
 
 <?php
+// For Xampp Localhost
+//$servername = 'localhost';
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";
+
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
