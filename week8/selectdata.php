@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "webprogmi222_sf221";
-$password = "xE*Y2nleNVvZm[!!";
+$password = "g_6bCitLu.ljMK*m";
 $dbname = "webprogmi222_sf221";
 
 // Create connection
