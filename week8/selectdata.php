@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "webprogmi221";
-$password = "g_6bCitLu.ljMK*m";
-$dbname = "webprogmi221";
+$username = "webprogmi222_sf221";
+$password = "xE*Y2nleNVvZm[!!";
+$dbname = "webprogmi222_sf221";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email, website, comment, gender FROM MyGuests";
+$sql = "SELECT id, name, email, website, comment, gender FROM rlibudanmyguests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
