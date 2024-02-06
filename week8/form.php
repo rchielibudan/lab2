@@ -101,12 +101,14 @@ echo $gender;
 ?>
 
 <?php
+
 // For Xampp Localhost
-//$servername = 'localhost';
+//$servername = "localhost";
 //$username = "root";
 //$password = "";
 //$dbname = "myDB";
 
+// For socitcloud
 $servername = "localhost";
 $username = "webprogmi221";
 $password = "g_6bCitLu.ljMK*m";
